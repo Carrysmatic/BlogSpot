@@ -78,8 +78,32 @@ export default function Home() {
           </div>
 
         </div>
-        <div className={styles.content}></div>
-        <div className={styles.background}></div>
+        <div className={styles.content}>
+          <div className={styles.contentBox}>
+            <div className={styles.contentDetails}>
+              <span className={styles.contentCategory}>Category</span>
+              <span className={styles.contentDate}>Date</span>
+            </div>
+            <div className={styles.contentTitle}>
+              <h2>Whatever is begun in anger ends in shame</h2>
+            </div>
+            <div className={styles.contentText}>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                ultrices, nisl ut aliquam aliquam, nunc nisl aliquet nisl, eget
+                aliquet nunc nisl sit amet nisl. Sed ultrices, nisl ut aliquam
+                <a href="#">
+                <i className={styles.arrowLink}></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className={styles.background}>
+          <div className={styles.backgroundImage}>
+            <img src="./image_back.jpg" alt="background" />
+          </div>
+        </div>
       </div>
     </>
   );
