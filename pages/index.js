@@ -8,7 +8,7 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.menuItems}>
           <div className={styles.searchBar}>
-           <input type="text" placeholder="Type here to search..." />
+            <input type="text" placeholder="Type here to search..." />
           </div>
           <div className={styles.menuTitle}>
             <h1> Blog </h1>
@@ -44,39 +44,41 @@ export default function Home() {
           </footer>
         </div>
         <div className={styles.sidebar}>
-          <div className={styles.mediaSocialHolder}>
-          <div className={styles.mediaSocial}>
-              <a href="#">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              </div>
-              <div className={styles.mediaSocial}>
-              <a href="#">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              </div>
-              <div className={styles.mediaSocial}>
-              <a href="#">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              </div>
-              <div className={styles.mediaSocial}>
-              <a href="#">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              </div>
-              <div className={styles.mediaSocial}>
-              <a href="#">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              </div>
-              <div className={styles.mediaSocial}>
-              <a href="#">
-                <i className="fab fa-facebook-f"></i>
-              </a>
-              </div>
-          </div>
-
+          <nav>
+            <ul>
+              <li>
+                <div class="home-icon">
+                  <div class="roof">
+                    <div class="roof-edge"></div>
+                  </div>
+                  <div class="front"></div>
+                </div>
+              </li>
+              <li>
+                <div class="about-icon">
+                  <div class="head">
+                    <div class="eyes"></div>
+                    <div class="beard"></div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="work-icon">
+                  <div class="paper"></div>
+                  <div class="lines"></div>
+                  <div class="lines"></div>
+                  <div class="lines"></div>
+                </div>
+              </li>
+              <li>
+                <div class="mail-icon">
+                  <div class="mail-base">
+                    <div class="mail-top"></div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
         </div>
         <div className={styles.content}>
           <div className={styles.contentBox}>
@@ -93,9 +95,54 @@ export default function Home() {
                 ultrices, nisl ut aliquam aliquam, nunc nisl aliquet nisl, eget
                 aliquet nunc nisl sit amet nisl. Sed ultrices, nisl ut aliquam
                 <a href="#">
-                <i className={styles.arrowLink}></i>
+                  <i className={styles.arrowLink}></i>
                 </a>
               </p>
+            </div>
+          </div>
+          <div className={styles.contentBoxTitles}>
+            <div className={styles.contentTitleSub}>
+              <h2>Whatever is begun in anger ends in shame</h2>
+            </div>
+            <div className={styles.contentDetails}>
+              <span className={styles.contentCategory}>Category</span>
+              <span className={styles.contentDate}>Date</span>
+            </div>
+          </div>
+          <div className={styles.contentBoxTitles}>
+            <div className={styles.contentTitleSub}>
+              <h2>Whatever is begun in anger ends in shame</h2>
+            </div>
+            <div className={styles.contentDetails}>
+              <span className={styles.contentCategory}>Category</span>
+              <span className={styles.contentDate}>Date</span>
+            </div>
+          </div>
+          <div className={styles.contentBoxTitles}>
+            <div className={styles.contentTitleSub}>
+              <h2>Whatever is begun in anger ends in shame</h2>
+            </div>
+            <div className={styles.contentDetails}>
+              <span className={styles.contentCategory}>Category</span>
+              <span className={styles.contentDate}>Date</span>
+            </div>
+          </div>
+          <div className={styles.contentBoxTitles}>
+            <div className={styles.contentTitleSub}>
+              <h2>Whatever is begun in anger ends in shame</h2>
+            </div>
+            <div className={styles.contentDetails}>
+              <span className={styles.contentCategory}>Category</span>
+              <span className={styles.contentDate}>Date</span>
+            </div>
+          </div>
+          <div className={styles.contentBoxTitles}>
+            <div className={styles.contentTitleSub}>
+              <h2>Whatever is begun in anger ends in shame</h2>
+            </div>
+            <div className={styles.contentDetails}>
+              <span className={styles.contentCategory}>Category</span>
+              <span className={styles.contentDate}>Date</span>
             </div>
           </div>
         </div>
