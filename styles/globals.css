@@ -10,7 +10,7 @@ body, head {
 }
 
 h1 {
-  color: white;
+	color: #848484;
   padding-bottom: 40px;
 }
 p {
@@ -34,7 +34,11 @@ img {
 }
 
 h2{
-  color: #848484;
+	color: #848484;
+}
+
+li{
+	  list-style: none;
 }
 
 nav {
