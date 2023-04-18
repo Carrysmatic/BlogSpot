@@ -7,9 +7,9 @@ export default function Home() {
     <>
       <div className={styles.container}>
         <div className={styles.menuItems}>
-          <div className={styles.searchBar}>
+          {/* <div className={styles.searchBar}>
             <input type="text" placeholder="Type here to search..." />
-          </div>
+          </div> */}
           <div className={styles.menuTitle}>
             <h1> Blog </h1>
             <p>
@@ -20,7 +20,9 @@ export default function Home() {
           <div className={styles.menuList}>
             <ul>
               <li className={styles.listItemMenu}>
-                <a href="#">Home</a>
+                <a href="#" className="active">
+                  Home
+                </a>
               </li>
               <li className={styles.listItemMenu}>
                 <a href="#">About</a>
@@ -50,13 +52,15 @@ export default function Home() {
               <span className={styles.contentDate}>Date</span>
             </div>
             <div className={styles.contentTitle}>
-              <h2>Whatever is begun in anger ends in shame</h2>
+              <h1>Whatever is begun in anger ends in shame</h1>
             </div>
             <div className={styles.contentText}>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                ultrices, nisl ut aliquam aliquam, nunc nisl aliquet nisl, eget
-                aliquet nunc nisl sit amet nisl. Sed ultrices, nisl ut aliquam
+                Now when I had mastered the language of this water and had come
+                to know every trifling feature that bordered the great river as
+                familiarly as I knew the letters of the alphabet, I had made a
+                valuable acquisition. I still keep in mind a certain wonderful
+                sunset which I witnessed when and steamboating
                 <a href="#">
                   <i className={styles.arrowLink}></i>
                 </a>
@@ -65,7 +69,10 @@ export default function Home() {
           </div>
           <div className={styles.contentBoxTitles}>
             <div className={styles.contentTitleSub}>
-              <h2>Whatever is begun in anger ends in shame</h2>
+              <h2>
+                {" "}
+                <a href="#">Whatever is begun in anger ends in shame</a>{" "}
+              </h2>
             </div>
             <div className={styles.contentDetails}>
               <span className={styles.contentCategory}>Category</span>
@@ -74,7 +81,10 @@ export default function Home() {
           </div>
           <div className={styles.contentBoxTitles}>
             <div className={styles.contentTitleSub}>
-              <h2>Whatever is begun in anger ends in shame</h2>
+              <h2>
+                {" "}
+                <a href="#">Whatever is begun in anger ends in shame</a>{" "}
+              </h2>
             </div>
             <div className={styles.contentDetails}>
               <span className={styles.contentCategory}>Category</span>
@@ -83,7 +93,10 @@ export default function Home() {
           </div>
           <div className={styles.contentBoxTitles}>
             <div className={styles.contentTitleSub}>
-              <h2>Whatever is begun in anger ends in shame</h2>
+              <h2>
+                {" "}
+                <a href="#">Whatever is begun in anger ends in shame</a>{" "}
+              </h2>
             </div>
             <div className={styles.contentDetails}>
               <span className={styles.contentCategory}>Category</span>
@@ -92,7 +105,10 @@ export default function Home() {
           </div>
           <div className={styles.contentBoxTitles}>
             <div className={styles.contentTitleSub}>
-              <h2>Whatever is begun in anger ends in shame</h2>
+              <h2>
+                {" "}
+                <a href="#">Whatever is begun in anger ends in shame</a>{" "}
+              </h2>
             </div>
             <div className={styles.contentDetails}>
               <span className={styles.contentCategory}>Category</span>
@@ -101,7 +117,10 @@ export default function Home() {
           </div>
           <div className={styles.contentBoxTitles}>
             <div className={styles.contentTitleSub}>
-              <h2>Whatever is begun in anger ends in shame</h2>
+              <h2>
+                {" "}
+                <a href="#">Whatever is begun in anger ends in shame</a>{" "}
+              </h2>
             </div>
             <div className={styles.contentDetails}>
               <span className={styles.contentCategory}>Category</span>

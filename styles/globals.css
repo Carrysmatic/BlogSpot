@@ -1,5 +1,6 @@
 html,
 body, head {
+	font-family: 'Montserrat', sans-serif, Arial;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -10,8 +11,8 @@ body, head {
 }
 
 h1 {
-	color: #848484;
-  padding-bottom: 40px;
+	color: #242424;
+  padding-bottom: 20px;
 }
 p {
   color: #848484;
@@ -25,7 +26,11 @@ input {
 
 a {
   text-decoration: none;
-  color: #848484;
+  color: #ffffff;
+}
+
+a.active {
+	color: #C0D3D3;
 }
 
 img {
@@ -34,7 +39,7 @@ img {
 }
 
 h2{
-	color: #848484;
+	color: #242424;
 }
 
 li{
@@ -49,10 +54,11 @@ nav {
 	background: transparent;
 }
 
-nav ul {
+ul {
 	text-align: center;
   list-style: none;
-  margin-left:30px;
+ padding: 0;
+ margin: 0;
 }
 
 nav ul li {
